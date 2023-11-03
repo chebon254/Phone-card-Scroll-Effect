@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Phone Card Scroll Effect</title>
 
     <link rel="icon shortcut" href="css/img/Cretiv Favicon White.png">
     <link rel="stylesheet" href="css/style.css">
@@ -19,7 +19,33 @@
         crossorigin="anonymous" />
 </head>
 <body>
-    
+    <main>
+        <section class="banner">
+            <div class="phone">
+                <img src="css/img/phone.png" alt="cretiv" class="phone">
+                <div class="phone-cards">
+                    <div class="phone-card" id="phoneCards">
+                        <img src="css/img/cape.png" alt="cretiv" width="180px" class="phone-card-img">
+                        <h4>Cape</h4>
+                        <p>$500</p>
+                    </div>
+                    <div class="phone-card">
+                        <img src="css/img/cape.png" alt="cretiv" width="180px" class="phone-card-img">
+                        <h4>Coffee</h4>
+                        <p>$600</p>
+                    </div>
+                    <div class="phone-card">
+                        <img src="css/img/cape.png" alt="cretiv" width="180px" class="phone-card-img">
+                        <h4>Burger</h4>
+                        <p>$20</p>
+                    </div>
+                </div>
+                <button onclick="startScroll()" class="finger-print">
+                    <img src="css/img/Finger Print.png" alt="cretiv" width="100%">
+                </button>
+            </div>
+        </section>  
+    </main>
     <script src="js/script.js"></script>
 </body>
 </html>
